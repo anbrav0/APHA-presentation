@@ -1,0 +1,187 @@
+---
+title: Examining Sociocultural Factors of Hispanic Stress:\n  A Community Based Remote Study Among Latinx Adolescents in South Florida
+author:
+  - name: Ana Bravo, MPH
+    affil: 2
+    orcid: 0009-0001-0199-3695
+  - name: Weize Wang, MPH
+    affil: 1
+    orcid: 0000-0002-7143-1567
+  - name: Beatriz-Macias Gomez-Estern, Ph.D.
+    affil: 
+    orcid: 0000-0003-4952-1811
+  - name: Victoria Behar-Zusman, Ph.D.
+    affil: 2
+    orcid: 0000-0002-8732-0116
+  - name: Patria Rojas, Ph.D.
+    affil: 1
+    orcid: 0000-0002-4799-9910
+affiliation:
+  - num: 1,
+    address: Center for Research on U.S. Latino HIV/AIDS and Drug Abuse (CRUSADA), Florida International University
+  - num: 2
+    address: University of Miami, Miller School of Medicine
+column_numbers: 3
+logoright_name: "images/bj3t4m9tbfhht4mwr6kt3rxr.png"
+logoleft_name: "images/athletic-vertical.png"
+body_textsize: "30px"
+author_textsize: "50px"
+output: 
+  posterdown::posterdown_html:
+    self_contained: TRUE
+bibliography: packages.bib
+knit: pagedown::chrome_print
+primary_colour: "#081E3F"
+accent_colour: "#9a7400"
+titlebox_bordercol: "#9a7400"
+sectitle_textcol: "#ffffff"
+sectitle_bordercol: "#bf9000"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+## Background
+
+Stress related factors among adolescents in the United States (U.S.) has been associated with later development of chronic disease, cardiovascular disorders, and psychological distress (Roemmich. et al 2014). Recent trends suggested that between 2016 and 2020, there were significant increases in anxiety and depressive symptoms, and a decrease in preventative medical care visits in pediatric populations (Lebrun-Harris, Ghandour, Kogan & Warren, 2022). Although adolescents across the U.S. experience differing levels of stress and stress related problems, Latino adolescent seem to be more at-risk for mood disorders as well as being at risk for higher rates of alcohol use (Boyas, Villarreal-Otalora & Marsiglia, 2019). Latinos are the largest ethnic minority group in the U.S., accounting for 19% of the population (Bustamante, Lopez, & Krogstad, 2023). Considering the recent need for mental health research and the public health impact of this large minority population, the current study explores specific facets of Latino adolescent stress because stress associated with acculturation gaps among urban and semirural Latino adolescents is largely understudied and not well understood.
+
+## Latino Adolescent Population
+
+According to the Youth Risk Behavior Survey Summary (YRBSS) trend for 2021, 46% of Hispanic adolescent reported experiencing persistent feeling of sadness or hopelessness in the past year. Between 2011 to 2021, Hispanic adolescent experienced about a 13% increase of persistent feelings of sadness or hopelessness (CDC summary trends 2023). Latino adolescents navigate a unique set of stress related factors such and acculturative stress, language and communication barriers, perceived discrimination due to bilingualism, ethnicity and race (Cano et al., 2015). Several studies on Latino adolescent document that gender norms, familyism, and urban environment have been associated with stress related factors among Latino adolescents. (Cervantes, R.C. & Cordova, D. 2011). Yet, the influence on these factors among adolescent males of South and Central Americans origins is not well understood. The present study investigates stress related factors among a diverse sample of Latino adolescents from the aforementioned origins living in Miami-Dade County (MDC).
+
+## Theoretical Framework
+
+The acculturation gap-distress theoretical model or acculturative family distancing (AFD) has been utilized to explain conflict in values and preferences among adjusting adolescents that leads to family conflict, which may in turn lead to adolescent maladjustment over lifespan development (Lau, et al. 2005). Researchers have suggested that failing to resolve these differences can lead to low self-esteem and conduct disorders among adolescents and increase parent-adolescent conflict exacerbating the acculturation gap. (Nieri, et al. 2017). Guided by this theory, this study examines the correlation among socio-cultural values and adolescents' stress measured by Hispanic Stress Inventory (Cervantes, et.al, 2012). We hypothesize that family environment such as family conflict, control, and religion would be associated with higher reported Hispanic stress among adolescents.
+
+# Methods
+
+This study is a secondary data analysis from a National Institutes of Health (NIH) funded randomized controlled community based clinical study Hispanic Men Building Respect Education and Safety (HoMBRES) evaluating the effectiveness of an adapted evidence-based HIV prevention intervention. The parent study was a randomized clinical study with adult Latino men and their adolescent sons living in a semi-rural or urban community in Miami-Dade County, Florida. Father participants were recruited using printed fliers, during community meetings, social media, and local radio advertisement. Due to the social distancing regulations during the COVID-19 pandemic, participants were interviewed via telephone in their language of preference by a trained community leader using Research Electronic Data Capture (RedCap). Spanish measures were translated and back translated into Spanish; a method approved by the Institutional Review Board. Adolescents who participated in the study were the biological, adopted, or putative sons of participants (adult fathers, 18 and older). Fathers had to identify themselves as Latinos and be able to speak and understand English or Spanish. Both members of the dyad (father/son), signed an approved IRB consent and assent form respectively. Adolescents received a password secured link to a smart telephone and were guided through a RedCap questionnaire. Questionnaires were available in English and Spanish and were facilitated by master or PhD level bilingual interviewers. IRB approval for this study was obtained from a large institution in South Florida. Adolescents were asked to answer a series of questions via survey link that was administered remotely via telephone, computer, or iPad tablet. Data for the current study was based on the adolescent sampled (122 male) at baseline.
+
+# Analysis
+
+The sample mean, standard deviation, median, minimum, and maximum was used to describe continuous variables, while frequencies and proportions were used to describe the categorical variables. To examine the association between the Hispanic adolescent stress and the independent variables of interest (machismo, caballerismo, family environment, acculturation, and cultural values), we used a mixed linear effects modeling with an identity link and Gaussian distribution, and a random residual component. The models controlled for demographic variables, including age, parent marital status, semi-rural/urban residence, fathers' years in the U.S., adolescent country of origin, past month total income, and total individuals in the household. The time of assessment was also included in the final model as the data was repeated measurements at two time points. Univariate mixed models were conducted before the final multivariate linear mixed model. Variables of interest with a significant effect from the univariate analysis were included in the final model. The Statistical Analysis System (SAS) 9.4 and R programming version 4.2.1 were used with a significance level of 0.05.
+
+\newpage
+
+# Results
+
+On average, adolescent participants reported Hispanic Youth Stress (HSI) with a mean of score 2 (SD = 0.6) and answers ranging on a scale from 1 to 4. In the bivariate model, Machismo and Caballerismo were both significantly associated with HSI. Results show that participants with a household income ranging from \$1000 to \$1999 were more likely to experience greater Hispanic stress than participants reporting \$2000 or more monthly income (p = 0.02), when controlling for all other variables.The MACV's respect sub score was significantly associated with Hispanic stress. Participants who reported higher levels of respect for parents or guardian, were more likely to report lower levels of Hispanic stress (β = -.19, p = 0.0009) Participants who were U.S. born were significantly more likely to report higher levels of Hispanic stress (β = 0.20, p = 0.04) than those who were non-U.S. born.On average, participants during baseline reported a mean score of 1.9 (SD = 1.6) on family conflict, a score of 5.4 (SD = 1.8) on family religion, and a score of 4.6 (SD = 1.8) on family control with response answers ranging from 0 to 9. Results revealed a significantly positive association between family conflict (β = 0.06, p = 0.009), religiosity (β = 0.06, p = 0.005), control (β = 0.07, p = 0.0006) and Hispanic adolescent stress. Higher family conflict, religiosity and control scores were associated with greater Hispanic stress among adolescents.
+
+```{r, message=FALSE}
+library(flextable)
+library(tidyverse)
+
+final_demographic_table_ready2import_2 <- read_csv("~/Library/CloudStorage/OneDrive-Personal/FIU Related/Graduate/MPH Biostatistics/CRUSADA/clean_data/final_demographic_table_ready2import_2.csv")
+
+
+final_demographic_table <- 
+  final_demographic_table_ready2import_2 |> 
+  select(Variable, `Mean (SD.)`, Median, Range) |> 
+  flextable() |> 
+  theme_booktabs(bold_header = TRUE) |> 
+  set_caption(caption = "Youth Participants' baseine characteristics (N=122)") |>  
+  autofit() |>  
+  add_footer_lines("Note.SD. = Standard deviation") |> 
+  hline(i = 12) |> 
+  hline(i = 11) |> 
+  bold(i = 12)
+
+ 
+final_demographic_table
+
+```
+
+```{r, message=FALSE}
+library(flextable)
+library(tidyverse)
+
+
+
+
+Father_demoReady2export <- read_csv("~/Library/CloudStorage/OneDrive-Personal/FIU Related/Graduate/MPH Biostatistics/CRUSADA/clean_data/Father_demoReady2export.csv")
+
+
+# cleaning variables 
+
+Father_demoReady2export <- Father_demoReady2export  %>% 
+  select( Variable, `Mean (SD.)`, Median, Range)
+
+
+
+# doing flextable stuff 
+
+Father_demoReady2export <- Father_demoReady2export %>% 
+  flextable() %>% 
+  theme_booktabs(bold_header = TRUE) %>% 
+  set_caption(caption = "Father Participants' Demographic Variables") %>% 
+  autofit() %>% 
+  add_footer_lines("Note.SD. = Standard deviation") %>% 
+  hline(i = 1) %>% 
+  bold(i = 2) %>% 
+  hline(i = 2)
+  
+
+Father_demoReady2export
+
+```
+
+```{r, out.width = '100%', fig.align='center', fig.height=10,  message=FALSE}
+library(flextable)
+library(gt)
+library(gtsummary)
+library(tidyverse)
+
+
+
+
+
+Bivariate_vs_full_chartfinal <- read_csv("~/Library/CloudStorage/OneDrive-Personal/FIU Related/Graduate/MPH Biostatistics/CRUSADA/clean_data/Bivariate_vs_full_chart_ready2import.csv")
+
+
+# fixing name 
+Bivariate_vs_full_chartfinal$Predictors[Bivariate_vs_full_chartfinal$Predictors == "Paren marital status"] <- "Parent marital status"
+
+
+#change preditors to independent variables
+Bivariate_vs_full_chartfinal <- Bivariate_vs_full_chartfinal |> 
+  rename(`Independent Variables` = Predictors)
+  
+
+
+Bivariate_vs_full_chartfinal <- Bivariate_vs_full_chartfinal %>% 
+  select(`Independent Variables`, `Bivariate model`, `Full model`) %>% 
+  flextable() %>% 
+  theme_booktabs(bold_header = TRUE) %>% 
+  set_caption(caption = " Estimates for HSI-A outcome among Latinx teens living in urban and semirural areas of Miami-Dade County, Florida") %>% 
+  autofit() %>% 
+  add_footer_lines("*p<0.05; **p<0.01; ***p<0.001") %>% 
+  hline(i = 1) %>% 
+  bold(i = 1)
+
+Bivariate_vs_full_chartfinal
+```
+
+# Discussion
+
+The present study partially supports our hypothesis. Our results highlight the association between Hispanic adolescent stress and the family environment. The results suggests that family conflict is negatively associated with adolescents' Hispanic stress. Results from the family environmental scale are consistent to the current literature regarding religious behaviors in the household. Previous studies suggest that higher levels of religiosity were associated with lower levels of stress related symptomatology such as depressive symptoms (Aranda MP, 2008). Conversely, our study reveals a positive association between reported family religiosity and Hispanic stress, suggesting contrary findings to the literature that deserve further explanation. This present study provides insight into for novel development into understanding the role that religious values play in Latino populations, specifically from South and Central America. A possible justification may be due to parental stricter rules and regulations based on religious beliefs.
+
+Specifically, this study identified no negative association between Hispanic stress and Machismo related gender roles, after controlling for existing predictors such as socioeconomic factors and acculturation related variables. These results highlight the need to understanding differences in U.S. born and their perceived stress related levels compared to non- U.S. born adolescents. Conversely, understanding the importance of time spent in the U.S. and accelerative stress overall. Our key findings on family conflict supports the theoretical framework that Latino young adult who experience sudden migration to a different country may differ in terms of stress related factors such as access to social services and increased parental substance use compared to their U.S. counterparts. (Barton, et al. 2022). Literature supports findings that the burden of acculturation stress has on non-U.S. immigrants differ among social determinants. However, first generation immigrants carry the weight of how long they have spent in the U.S. as first generation immigrates reside longer in the U.S., their health starts to resemble that of a U.S. born individual. This is called the acculturation hypothesis and could explain the differences between these two groups.
+
+Additionally, family religiosity and family control are part of Hispanic more communitarian raising styles. Family control is thought to have both protective and negative risk factors in addition to the added stress of being a first-generation immigrant parent. According to a study conducted by Mogro-Wilson (2008), present findings suggest that acculturation on family members has a significant impact on parenting control. It is noteworthy that this present study holds a unique sample in that recent immigrant families from South and Central America may share a unique set of stress related factors that are heterogenetic in nature compared to Mexican-origin counter parts.
+
+Results show differing levels of reported adolescent Hispanic stress and household income among the middle and higher income reported brackets. Although this is a small sample, participants within the \$1,000- \$1,999 monthly total income, reported higher levels of stress when compared to \$2,000 or more bracket, than participants in the 0 - \$999 versus \$2,000 or more bracket suggesting the need for culturally appropriate assistance and the lack of support for individuals within low middle income brackets. Finally, culturally appropriate care from social workers, public health care practitioners may be required to address the unique needs of those low middle income Latino adolescents. A collaboration from a multifaceted team of public health and social welfare access to early family support interventions. Latino adolescents' factors such as family conflict, and control are significantly related to Hispanic adolescent stress and should be of public health concern. Although this investigation was a small cross-sectional study, results from this randomized clinical community-based study are shown to contribute to the gap in the body of literature for acculturation differences between adolescents and their parents in Latino U.S. communities and posits the need for the continued research in acculturation gap-distress models.
+
+# Limitations
+
+Despite the study results, limitations have to be considered due to factors such as being a small sample and its retrospective self-reported method. Additionally, this data was mostly collected remotely because of the COVID-19 pandemic. The significance between some related factors may have disappeared during multivariate fitting, suggesting the need for a larger sample size or relevant applications in the use of certain measures on adolescent populations. Most of the sample was from Venezuelan descent and US born (50%); thus, this sample underrepresented of the U.S. Latino adolescent population. Because of the nature of this studying being cross-sectional, time differences over both time points were not analyzed and therefore time variation was not possible. Despite the limitations, researchers took measures to decrease the reliability of the data such as having a bilingual and bicultural interviewer with the adolescents throughout the interview. Questions regarding measures were answered and data quality control was conducted after each interview to ensure completion and appropriateness.
+
+# References
+
+```{r, echo=FALSE, out.width="40%", fig.align='center'}
+
+knitr::include_graphics("images/qr-code.png")
+
+```
