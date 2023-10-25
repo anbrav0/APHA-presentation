@@ -184,4 +184,8 @@ Despite the study results, limitations have to be considered due to factors such
 
 knitr::include_graphics("images/qr-code.png")
 
+usethis::create_from_github(
+    "https://github.com/anbrav0/APHA-presentation.git",
+    destdir = "/Users/anabravo/Library/CloudStorage/OneDrive-Personal/FIU Related/Graduate/MPH Biostatistics/APHA-presentation"
+)
 ```
